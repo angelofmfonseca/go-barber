@@ -1,0 +1,10 @@
+{
+  "name": "go-barber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/angelofmfonseca/go-barber.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
