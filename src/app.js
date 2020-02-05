@@ -1,5 +1,7 @@
 const express = require("express");
+
 import routes from "./routes";
+import "./database";
 
 class App {
   constructor() {
