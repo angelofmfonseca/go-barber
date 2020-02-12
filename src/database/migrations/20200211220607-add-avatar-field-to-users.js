@@ -6,11 +6,11 @@ module.exports = {
       type: Sequelize.INTEGER,
       references: {
         model: "files",
-        key: "id",
-        onUpdate: "CASCADE",
-        onDelete: "SET NULL",
-        allowNull: true
-      }
+        key: "id"
+      },
+      onUpdate: "CASCADE",
+      onDelete: "SET NULL",
+      allowNull: true
     });
   },
 
