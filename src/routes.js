@@ -22,5 +22,6 @@ routes.use(authMiddleware);
 routes.put("/users", UserController.update);
 
 routes.get("/providers", ProviderController.index);
+routes.get("/appointments", AppointmentController.index);
 
 export default routes;
